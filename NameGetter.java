@@ -1,7 +1,7 @@
 /*
- * @author: Raymundo
- * Description:
- * Created: 
+ * @author: Raymundo Carrasco
+ * Description: A program that is able to Grab the Users Name.
+ * Created: September 4, 2019
  * 
  */
 
