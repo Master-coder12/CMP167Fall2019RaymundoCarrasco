@@ -1,34 +1,24 @@
 /*
  * 
  * @author: Raymundo Carrasco
- * Description: Random number Generator
- * Date: September 5, 2019
- * 
  */
-
-import java.util.Random; 
 public class Test {
 	public static void main(String[] args) {
-		
-		Random randGen;
-		int num; 
-		int num2;
-		
-		randGen = new Random(); //Statement that produces random numbers
-		num = randGen.nextInt(15) + 1 ; //Random numbers from 1 - 15
-		num2 = 14; 
-		
-		System.out.println("The number of today is " + num);
-		
-		if (num == num2) {
-			System.out.println("It's a match.");
-		}
-		
-		else {
-			System.out.println("It's not a match.");
-		}
+//		System.out.println(78+98); //176
+//		System.out.println('a' + 'b');//195
+//		System.out.println('a' - 'b');//-1
+//		System.out.println('0' + '0');//96
+//		System.out.println('a' + 1); //98
+//		System.out.println('a');//a
 		
 		
+		int num = 220; 
+		double dollars = 17.40;
+		String name1 = "Bob";
+		String name2 = "Stephanie";
+		
+//		System.out.printf(" I have %d houses.", num);
+		System.out.printf("%n Pablo has $%.2f in her pocket.", dollars);
+		System.out.printf("\n %s is %d years older than %s ", name1 , 3 , name2 );
 	}
-
 }
